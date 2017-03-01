@@ -9,6 +9,6 @@ with np.load('cifar-10-python.npz') as data:
     out = tuple(data[k] for k in ['x_train', 'y_train', 'x_test', 'y_test'])
 x_train, y_train, x_test, y_test = out
 ```
-[Here](https://github.com/nickstanisha/CIFAR-10_data/blob/master/cifar-10-python.npz?raw=true) is a link to the raw download (176 MB).
+[Here](https://github.com/nickstanisha/CIFAR-10_data/blob/master/cifar-10-python.npz?raw=true) is a link to the raw download (240 MB).
 
 ![the data](data.png)
